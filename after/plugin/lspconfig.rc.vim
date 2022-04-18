@@ -43,7 +43,7 @@ local on_attach = function(client, bufnr)
 
   -- formatting
   if client.name == 'tsserver' then
-    client.resolved_capabilities.document_formatting = false
+    client.resolved_capabilities.document_formatting = true
   end
 
   if client.resolved_capabilities.document_formatting then
