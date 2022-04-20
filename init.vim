@@ -100,7 +100,7 @@ au BufNewFile,BufRead *.mdx set filetype=markdown
 " Flow
 au BufNewFile,BufRead *.flow set filetype=javascript
 " Fish
-au BufNewFile,BufRead *.fish set filetype=fish
+au BufNewFile,BufRead *.fish set filetype=zsh
 
 set suffixesadd=.js,.es,.jsx,.json,.css,.less,.sass,.styl,.php,.py,.md
 
@@ -139,9 +139,9 @@ if exists("&termguicolors") && exists("&winblend")
   set pumblend=5
   set background=dark
   " Use NeoSolarized
-  let g:neosolarized_termtrans=1
-  runtime ./colors/NeoSolarized.vim
-  colorscheme tokyonight
+  " let g:neosolarized_termtrans=1
+  runtime ./colors/Dracula.vim
+  colorscheme dracula
 endif
 
 "}}}

@@ -8,6 +8,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 
 if has("nvim")
+  Plug 'Mofiqul/dracula.nvim'
   Plug 'christoomey/vim-tmux-navigator'
   Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
   Plug 'hoob3rt/lualine.nvim'
